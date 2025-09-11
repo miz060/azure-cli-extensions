@@ -15268,6 +15268,49 @@
                     "version": "18.0.0b36"
                 },
                 "sha256Digest": "a4893618c6ea674c4eff305ecf1902b5c7baae7d7bab43db08685404533760dc"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/aks_preview-18.0.0b37-py2.py3-none-any.whl",
+                "filename": "aks_preview-18.0.0b37-py2.py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.61.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/aks-preview"
+                            }
+                        }
+                    },
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "aks-preview",
+                    "summary": "Provides a preview for upcoming AKS features",
+                    "version": "18.0.0b37"
+                },
+                "sha256Digest": "813f5aa7a77ada405316642f1a121dc41b7e174c7bc58af6e6c3e58ba74f85ee"
             }
         ],
         "aksarc": [
@@ -18515,6 +18558,50 @@
                     "version": "2.8.0"
                 },
                 "sha256Digest": "13821dd797a8292b6a790ca76878ac64b719b2202931feae57f27cc56cffb39c"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/amg-2.8.1-py3-none-any.whl",
+                "filename": "amg-2.8.1-py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": false,
+                    "azext.maxCliCoreVersion": "2.99.0",
+                    "azext.minCliCoreVersion": "2.61.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "ad4g@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/master/src/amg"
+                            }
+                        }
+                    },
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "amg",
+                    "summary": "Microsoft Azure Command-Line Tools Azure Managed Grafana Extension",
+                    "version": "2.8.1"
+                },
+                "sha256Digest": "9eca7b10921ff7f85fa5b6e9025350050fff536a11d33595f8ba89b65c82a0b3"
             }
         ],
         "amlfs": [
@@ -30352,6 +30439,100 @@
                     "version": "0.26.0"
                 },
                 "sha256Digest": "be497db3bc9221a82165d685ffc9bf5854e34f7ac8fd88580d6297dc63974a80"
+            },
+            {
+                "downloadUrl": "https://github.com/Azure/azure-iot-cli-extension/releases/download/v0.27.0/azure_iot-0.27.0-py3-none-any.whl",
+                "filename": "azure_iot-0.27.0-py3-none-any.whl",
+                "metadata": {
+                    "azext.minCliCoreVersion": "2.59.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3 :: Only",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.9",
+                        "Programming Language :: Python :: 3.10",
+                        "Programming Language :: Python :: 3.11",
+                        "Programming Language :: Python :: 3.12",
+                        "Programming Language :: Python :: 3.13",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "iotupx@microsoft.com",
+                                    "name": "Microsoft",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/azure/azure-iot-cli-extension"
+                            }
+                        }
+                    },
+                    "extras": [
+                        "uamqp"
+                    ],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "license_file": "LICENSE",
+                    "metadata_version": "2.0",
+                    "name": "azure-iot",
+                    "requires_python": ">=3.9",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "azure-core (<2.0.0,>=1.24.0)",
+                                "azure-core<2.0.0,>=1.24.0",
+                                "azure-identity (<1.18.0,>=1.6.1)",
+                                "azure-identity<1.18.0,>=1.6.1",
+                                "azure-iot-device (~=2.11)",
+                                "azure-iot-device~=2.11",
+                                "azure-mgmt-core (<2.0.0,>=1.3.0)",
+                                "azure-mgmt-core<2.0.0,>=1.3.0",
+                                "azure-storage-blob (<13.0.0,>=12.14.0)",
+                                "azure-storage-blob<13.0.0,>=12.14.0",
+                                "jsonschema (~=3.2.0)",
+                                "jsonschema~=3.2.0",
+                                "msrest (>=0.6.21)",
+                                "msrest>=0.6.21",
+                                "msrestazure (<2.0.0,>=0.6.3)",
+                                "msrestazure<2.0.0,>=0.6.3",
+                                "packaging (>=23.2)",
+                                "packaging>=23.2",
+                                "tomli (~=2.0)",
+                                "tomli-w (~=1.0)",
+                                "tomli-w~=1.0",
+                                "tomli~=2.0",
+                                "tqdm (~=4.62)",
+                                "tqdm~=4.62",
+                                "treelib (~=1.6)",
+                                "treelib~=1.6"
+                            ]
+                        },
+                        {
+                            "extra": "uamqp",
+                            "requires": [
+                                "uamqp (<=1.6.8,>=1.2)"
+                            ]
+                        },
+                        {
+                            "environment": "extra == \"uamqp\"",
+                            "requires": [
+                                "uamqp<=1.6.8,>=1.2"
+                            ]
+                        }
+                    ],
+                    "summary": "The Azure IoT extension for Azure CLI.",
+                    "version": "0.27.0"
+                },
+                "sha256Digest": "c2c8cd75c60382fab7dce11dbe2f8fe410e3b7f515c9ec70bfae3e830eececf9"
             }
         ],
         "azure-iot-ops": [
@@ -32547,62 +32728,6 @@
                     "version": "1.0.0"
                 },
                 "sha256Digest": "4baf489caaeada3feb08e5d1a3f890f2ee0dd4072a28a04c1eab7301b64293c5"
-            },
-            {
-                "downloadUrl": "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66749/azure_sphere-0.1.4-py2.py3-none-any.whl",
-                "filename": "azure_sphere-0.1.4-py2.py3-none-any.whl",
-                "metadata": {
-                    "azext.isPreview": true,
-                    "azext.minCliCoreVersion": "2.45.0",
-                    "classifiers": [
-                        "Development Status :: 4 - Beta",
-                        "Intended Audience :: Developers",
-                        "Intended Audience :: System Administrators",
-                        "Programming Language :: Python",
-                        "Programming Language :: Python :: 3",
-                        "Programming Language :: Python :: 3.6",
-                        "Programming Language :: Python :: 3.7",
-                        "Programming Language :: Python :: 3.8",
-                        "Programming Language :: Python :: 3.9",
-                        "License :: OSI Approved :: MIT License"
-                    ],
-                    "extensions": {
-                        "python.details": {
-                            "contacts": [
-                                {
-                                    "email": "azsppgsup@microsoft.com",
-                                    "name": "Microsoft Corporation",
-                                    "role": "author"
-                                }
-                            ],
-                            "document_names": {
-                                "description": "DESCRIPTION.rst"
-                            },
-                            "project_urls": {
-                                "Home": "https://docs.microsoft.com/azure-sphere"
-                            }
-                        }
-                    },
-                    "extras": [],
-                    "generator": "bdist_wheel (0.30.0)",
-                    "license": "MIT",
-                    "metadata_version": "2.0",
-                    "name": "azure-sphere",
-                    "requires_python": ">=3.6.0",
-                    "run_requires": [
-                        {
-                            "requires": [
-                                "azure-core (>=1.24.0)",
-                                "azure-mgmt-core (>=1.3.0)",
-                                "azuresphere-device-api (>=1.1.0)",
-                                "semantic-version (==2.8.5)"
-                            ]
-                        }
-                    ],
-                    "summary": "Microsoft Azure Command-Line Tools Azure Sphere Extension",
-                    "version": "0.1.4"
-                },
-                "sha256Digest": "8ba8a4e9b1020ebe62db1c322cc4881793dde7f04b9c431772aac5a4cb214f35"
             }
         ],
         "azurelargeinstance": [
@@ -94774,6 +94899,58 @@
                     "version": "1.28.3"
                 },
                 "sha256Digest": "e4b1876ca60e74c7530592c2ca63c6647334a0ad8c2d10a1744e49776a810cb9"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/spring-1.28.4-py3-none-any.whl",
+                "filename": "spring-1.28.4-py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": false,
+                    "azext.minCliCoreVersion": "2.56.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/spring"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "spring",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "jinja2",
+                                "jinja2"
+                            ]
+                        }
+                    ],
+                    "summary": "Microsoft Azure Command-Line Tools spring Extension",
+                    "version": "1.28.4"
+                },
+                "sha256Digest": "fb6bdc7260868b7d71a1159a4ff8dd20684a02138ec6b5f6fcbecefbcc235039"
             }
         ],
         "ssh": [
